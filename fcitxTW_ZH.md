@@ -14,7 +14,15 @@ sudo locale-gen
 Install fcitx 5
 
 ```bash
-sudo pacman -S --noconfirm fcitx5-chewing fcitx5-config-qt
+sudo pacman -S --noconfirm ibus-chewing
+
+#sudo pacman -S --noconfirm libchewing fcitx5-im  fcitx5 fcitx5-chewing fcitx5-config-qt fcitx5-gtk fcitx5-qt fcitx5-material-color
+
+# From Manjaro https://archived.forum.manjaro.org/t/how-to-input-chinese/128392
+sudo pacman -S --noconfirm fcitx fcitx-im fcitx-gtk2 fcitx-gtk3 fcitx-qt5 fcitx-configtool
+
+sudo pacman -S --noconfirm adobe-source-han-sans-tw-fonts adobe-source-han-serif-tw-fonts
+yum -S --noconfirm ttf-ms-win10-zh_tw ttf-ms-win8-zh_tw
 ```
 
 1. You must FIRST add Chinese Taiwan/Traditional in:
