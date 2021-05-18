@@ -1,6 +1,34 @@
 # Install fcitx for Taiwanese-style Mandarin typing input in Ubuntu
 
-This installs fcitx on GNOME (Orange-Gray, no conflict with Compose Key, Ubuntu Unity native Taiwan Chinese input)
+## Manjaro/Arch
+
+Set the locale
+
+```bash
+sudo cp /etc/locale.gen /etc/locale.gen.orig
+sudo echo "en_US.UTF-8 UTF-8" > /etc/locale.gen
+sudo localectl set-locale LANG=en_US.UTF-8
+sudo locale-gen
+```
+
+Install fcitx 5
+
+```bash
+sudo pacman -S --noconfirm fcitx5-chewing fcitx5-config-qt
+```
+
+1. You must FIRST add Chinese Taiwan/Traditional in:
+
+- Settings > Region & Language > Manage Installed Languages / Language Support
+
+2. Open Fcitx Configuration
+
+- Uncheck "Only Show Current Language"
+- Add Taiwan: Chewing
+
+## Ubuntu
+
+This installs fcitx on GNOME
 
 1. You must FIRST add Chinese Taiwan/Traditional in:
 

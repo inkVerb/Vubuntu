@@ -8,9 +8,7 @@ ___
 - View the GitHub repo for VIP-DarkHub Code Purple: **[inkVerb/VIP-DarkHub](https://github.com/inkVerb/VIP-DarkHub)**
 
 ___
-## [Manjaro Instructions](https://github.com/inkVerb/Vubuntu/blob/master/Manjaro.md)
-## [Ubuntu Download Links](https://github.com/inkVerb/Vubuntu/blob/master/UbuntuDL.md)
+## [Manjaro/Arch Instructions](https://github.com/inkVerb/Vubuntu/blob/master/Arch.md)
 ## [BIOS, EFI & Other Settings for Ubuntu](https://github.com/inkVerb/Vubuntu/blob/master/install-BIOS-UEFI.md)
-## [GRFX Nvidia etc](https://github.com/inkVerb/Vubuntu/blob/master/GFX-nvidia-etc.md)
 ## [fcitx TW_ZH for Taiwanese-style Mandarin typing input in Ubuntu](https://github.com/inkVerb/Vubuntu/blob/master/fcitxTW_ZH.md)
 ## Ebooks & Kindle: [Get More Out Of Your Kindle In Linux With These Simple Tips // It's FOSS @ Abhishek Prakash ](https://itsfoss.com/kindle-linux-tips/)
